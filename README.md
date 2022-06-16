@@ -91,9 +91,9 @@ Hints (Useful Resources):
 
 ## Testing
 Upon completion of Week 2 Lab Project, all the necessary components and functions should be implemented in order to successfully complete the test cases mentioned below:
-+ Add Button Componenet adds task to list (on click)
-+ Add Button Componenet doesn't add blank task to list (on click)
-+ Add Button Componenet doesn't add duplicate task to list (on click)
++ Add Button Component adds task to list (on click)
++ Add Button Component doesn't add blank task to list (on click)
++ Add Button Component doesn't add duplicate task to list (on click)
 + Checkbox Button component removes task from list (on click)
 
 

@@ -1,31 +1,25 @@
-import React, { Component } from "react";
-import "./About.css";
-import profile_pic from "../assets/profile_pic.jpg";
+import React, { Component } from 'react';
+import prof from './prof.jpg';
+import './About.css'; 
 
+  
 export default class About extends Component {
   render() {
     return (
       <div>
-        {/* <p>Design your About me page </p> */}
-        <div class="split left">
-          <div className="centered">
-            <img
-              className="profile_image"
-              src={profile_pic}
-              alt="Profile Pic"
-            ></img>
-          </div>
+        <div className="split left"> 
+            <img src={prof} className="profile_image centered" alt="profilepic"></img>
         </div>
-        <div className="split right">
-          <div className="centered">
-            <div className="name_title">Your Name</div>
-            <div className="brief_description">
-              Tell us about yourself in a few sentences. Tell us your interests
-              and say a fun fact about yourself.
-            </div>
-          </div>
+
+        <div className="split right"> 
+        
+            <h1 className="name_title"> Alexis Hedvat </h1>
+            <p className="brief_description"> I am computer 
+              science major at Tufts Univeristy! I am also interested in 
+              Human Factors Engineering and tech ethics. </p>
         </div>
+      
       </div>
-    );
+    )
   }
 }

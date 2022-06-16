@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import NavbarComp from './component/navigation/NavbarComp';
 
+
 function App() {
   return (
     <div className="App">
@@ -10,7 +11,6 @@ function App() {
     </div>
   );
 }
-//adding comment to test
-//adding new comment
+
 
 export default App;
