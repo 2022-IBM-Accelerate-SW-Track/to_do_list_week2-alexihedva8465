@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import prof from './prof.jpg'; 
+import prof from './prof.jpg';
+import './About.css'; 
 
   
 export default class About extends Component {
